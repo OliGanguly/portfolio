@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../assets/myImage.jpg'
+import myImage from '../assets/myImage.jpg.jpeg'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 import { Link } from "react-scroll";
 
