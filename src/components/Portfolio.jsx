@@ -3,12 +3,16 @@ import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+import CartProject2 from '../assets/portfolio/CartProject2.png'
 
 function Portfolio(props) {
     const portfolios=[
      {
         id:1,
-        src:arrayDestruct
+        src:CartProject2,
+        describe:"Use Context API with useReducer Hook in React",
+        link:"https://candid-croquembouche-3b3d85.netlify.app/",
+        github:"https://github.com/OliGanguly/shopping_cart-_withContextHook"
      },
      {
         id:2,
@@ -37,15 +41,14 @@ function Portfolio(props) {
          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:p-0'>
          {
                 portfolios.map((portfolio)=>(
-
                 
                 <div key={portfolio.id}  className=' shadow-md shadow-gray-600 rounded-lg'>
                     <img src={portfolio.src} alt="" className='rounded-md duration-200
                     hover:scale-105'/>
-                    <p>this is</p>
+                    <p className='text-center mt-2'>{portfolio.describe}</p>
                     <div className='flex items-center justify-center'>
-                        <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                        <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                        <a  href={portfolio.link} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</a>
+                        <a href={portfolio.github}  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</a>
                     </div>
                 </div>
                
@@ -54,9 +57,6 @@ function Portfolio(props) {
          </div>
       
                 {/* grid system */}
-                
-                
-                
             </div>
          
          </div>
