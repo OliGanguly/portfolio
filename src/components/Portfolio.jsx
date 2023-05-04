@@ -5,6 +5,7 @@ import navbar from '../assets/portfolio/navbar.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import CartProject2 from '../assets/portfolio/CartProject2.png'
 import movieApp from '../assets/portfolio/movieApp.png'
+import fileExplorer from '../assets/portfolio/fileExplorer.png'
 function Portfolio(props) {
     const portfolios=[
      {
@@ -21,6 +22,14 @@ function Portfolio(props) {
         link:"https://my-movie-app-without-redux.netlify.app/",
         github:"https://github.com/OliGanguly/MovieAppWithoutRedux"
      },
+     {
+        id:3,
+        src:fileExplorer,
+        describe:"Folder Explorer like VS Code Using React js",
+        link:"https://file-explorer-like-vscode.netlify.app/",
+        github:"https://github.com/OliGanguly/folder_explorer"
+       
+     }
    
      
     ]
