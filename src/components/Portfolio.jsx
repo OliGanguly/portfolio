@@ -4,7 +4,7 @@ import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import CartProject2 from '../assets/portfolio/CartProject2.png'
-
+import movieApp from '../assets/portfolio/movieApp.png'
 function Portfolio(props) {
     const portfolios=[
      {
@@ -16,17 +16,12 @@ function Portfolio(props) {
      },
      {
         id:2,
-        src:installNode
+        src:movieApp,
+        describe:"Movies and TV Series Listing App in React JS and Material UI",
+        link:"https://my-movie-app-without-redux.netlify.app/",
+        github:"https://github.com/OliGanguly/MovieAppWithoutRedux"
      },
-     {
-        id:3,
-        src:navbar
-     },
-     
-        {
-            id:4,
-            src:reactSmooth
-         }
+   
      
     ]
     return (
