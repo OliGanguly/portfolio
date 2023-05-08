@@ -6,6 +6,7 @@ import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import CartProject2 from '../assets/portfolio/CartProject2.png'
 import movieApp from '../assets/portfolio/movieApp.png'
 import fileExplorer from '../assets/portfolio/fileExplorer.png'
+import quizApp from '../assets/portfolio/quizApp.png';
 function Portfolio(props) {
     const portfolios=[
      {
@@ -28,6 +29,14 @@ function Portfolio(props) {
         describe:"Folder Explorer like VS Code Using React js",
         link:"https://file-explorer-like-vscode.netlify.app/",
         github:"https://github.com/OliGanguly/folder_explorer"
+       
+     },
+     {
+        id:4,
+        src:quizApp,
+        describe:"Quiz App using React js",
+        link:"https://react-quiz-app-mobile-responsive.netlify.app/",
+        github:"https://github.com/OliGanguly/QuizAppInReact"
        
      }
    
