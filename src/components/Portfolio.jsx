@@ -8,6 +8,7 @@ import movieApp from '../assets/portfolio/movieApp.png'
 import fileExplorer from '../assets/portfolio/fileExplorer.png'
 import quizApp from '../assets/portfolio/quizApp.png';
 import youtube from '../assets/portfolio/youtube.png';
+import password from "../assets/portfolio/password.png";
 function Portfolio(props) {
     const portfolios=[
      {
@@ -49,11 +50,18 @@ function Portfolio(props) {
      },
      {
         id:6,
-        src:youtube,
-        describe:"Food ordering Application using React js",
-        link:"https://oliganguly-youtube.netlify.app",
-        github:"https://github.com/OliGanguly/youtubeClone"
-     }
+        src:password,
+        describe:"Password Generator using React js",
+        link:"https://stirring-dango-31614f.netlify.app",
+        github:"https://github.com/OliGanguly/React-password-Generator.git"
+     },
+     {
+      id:7,
+      // src:password,
+      describe:"Food Ordering App using React js",
+      // link:"https://stirring-dango-31614f.netlify.app",
+      github:"https://github.com/OliGanguly/FoodApp.git"
+   }
      
    
      
@@ -72,7 +80,7 @@ function Portfolio(props) {
                 portfolios.map((portfolio)=>(
                 
                 <div key={portfolio.id}  className=' shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={portfolio.src} alt="" className='rounded-md duration-200
+                    <img src={portfolio.src} alt="Loading.." className='rounded-md duration-200
                     hover:scale-105'/>
                     <p className='text-center mt-2'>{portfolio.describe}</p>
                     <div className='flex items-center justify-center'>
