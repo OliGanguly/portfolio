@@ -5,6 +5,7 @@ import javascript from "../assets/javascript.png"
 import reactImage from "../assets/react.png"
 import github from "../assets/github.png"
 import tailwind from "../assets/tailwind.png"
+import spring from "../assets/spring.jpeg"
 
 function Experience(props) {
     const allExperiences=[
@@ -43,6 +44,13 @@ function Experience(props) {
             exp:"tailwind css",
             src:tailwind,
             style:'shadow-sky-400'
+        },
+            {
+                id:7,
+                exp:"Spring Boot",
+                src:spring,
+                style:'shadow-green-400'
+            
         }
     ]
     return (

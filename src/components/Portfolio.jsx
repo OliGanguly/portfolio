@@ -7,6 +7,7 @@ import CartProject2 from '../assets/portfolio/CartProject2.png'
 import movieApp from '../assets/portfolio/movieApp.png'
 import fileExplorer from '../assets/portfolio/fileExplorer.png'
 import quizApp from '../assets/portfolio/quizApp.png';
+import youtube from '../assets/portfolio/youtube.png';
 function Portfolio(props) {
     const portfolios=[
      {
@@ -38,7 +39,22 @@ function Portfolio(props) {
         link:"https://react-quiz-app-mobile-responsive.netlify.app/",
         github:"https://github.com/OliGanguly/QuizAppInReact"
        
+     },
+     {
+        id:5,
+        src:youtube,
+        describe:"Youtube clone using React js",
+        link:"https://oliganguly-youtube.netlify.app",
+        github:"https://github.com/OliGanguly/youtubeClone"
+     },
+     {
+        id:6,
+        src:youtube,
+        describe:"Food ordering Application using React js",
+        link:"https://oliganguly-youtube.netlify.app",
+        github:"https://github.com/OliGanguly/youtubeClone"
      }
+     
    
      
     ]
