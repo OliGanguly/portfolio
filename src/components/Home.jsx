@@ -11,7 +11,10 @@ function Home(props) {
             <div className='flex-col items-center justify-center h-full  max-w-screen-lg mx-auto flex md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h1 className='text-white text-4xl sm:text-7xl font-bold'>I'm am a Full Stack Developer</h1>
-                    <p className='text-gray-500 py-4 max-w-md'>Experienced React js Developer with a demonstrated history of working in the information technology and services industry. Skilled React, Redux, Redux Saga, Firebase ,  JavaScript , Java, HTML, Cascading Style Sheets (CSS).</p>
+                    <p className='text-gray-500 py-4 max-w-md'>Experienced React js Developer with a demonstrated history of working in the information technology and services industry.
+                     Skilled JavaScript , React JS , Redux , Redux Toolkit , Firebase , Java,Spring MVC , Spring Boot , HTML, Cascading Style Sheets (CSS),
+                     Github , Postman , AWS , Devops Tools CI/CD pipeline [Jenkins] </p>
+                     
                     <div>
                         <Link to="portfolio" duration={500} smooth>
                         <button className='group text-white px-6 py-3 flex items-center rounded-lg bg-gradient-to-r from-cyan-400 to-blue-800 cursor-pointer'>

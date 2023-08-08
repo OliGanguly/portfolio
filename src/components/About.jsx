@@ -12,7 +12,8 @@ function About(props) {
          <p className='text-xl mt-10'>I love developing interactive websites!</p>
          <br/>
          <p className='text-xl'>
-      I specialize in developing sites for individuals and small businesses. I believe that websites are the way to tell your story to the world. I always look forward to work on fun projects. Take a look at my portfolio below, if you think I'd be a good match</p>
+      I specialize in developing sites for individuals and small businesses. I believe that websites are the way to tell your story to the world.
+       I always look forward to work on fun projects. Take a look at my portfolio below, if you think I'd be a good match</p>
         </div> 
 
         </div>
